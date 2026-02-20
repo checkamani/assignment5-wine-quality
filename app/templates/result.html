@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Prediction Result</title>
+</head>
+<body>
+  <h1>Prediction Result</h1>
+
+  {% if error %}
+    <p style="color:red;"><b>Error:</b> {{ error }}</p>
+  {% endif %}
+
+  {% if prediction is not none %}
+    <p><b>Predicted wine quality:</b> {{ prediction }}</p>
+    <p><b>Raw output:</b> {{ raw_prediction }}</p>
+  {% else %}
+    <p>No prediction yet.</p>
+  {% endif %}
+
+  <br>
+  <a href="/">Back</a>
+</body>
+</html>
