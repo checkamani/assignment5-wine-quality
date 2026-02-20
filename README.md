@@ -1,4 +1,3 @@
-cat > README.md <<'MD'
 # Wine Quality Predictor (Assignment 5)
 
 ML project using the UCI Wine Quality dataset to predict wine quality from 11 physicochemical features.
@@ -16,8 +15,3 @@ https://wine-quality-checkamani-2026-d976b81ec1b8.herokuapp.com/
 cd app
 docker build -t wine-quality-app .
 docker run -p 8080:8080 wine-quality-app
-MD
-
-git add README.md
-git commit -m "Add README"
-git push
