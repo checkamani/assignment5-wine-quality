@@ -9,7 +9,7 @@ ML project using the UCI Wine Quality dataset to predict wine quality from 11 ph
 - Templates: `app/templates/`
 
 ## Live App (Heroku)
-https://wine-quality-checkamani-2026-d976b81ec1b8.herokuapp.com/
+https://checkamani-wine-quality-8d3275c491e2.herokuapp.com/
 
 ## Run locally (Docker)
 cd app
