@@ -15,4 +15,3 @@ https://checkamani-wine-quality-8d3275c491e2.herokuapp.com/
 cd app
 docker build -t wine-quality-app .
 docker run -p 8080:8080 wine-quality-app
-
