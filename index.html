@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head><title>Wine Quality Predictor</title></head>
+<body>
+<h2>Wine Quality Predictor</h2>
+<form action="/predict" method="post">
+<input name="fixed acidity" placeholder="fixed acidity"><br>
+<input name="volatile acidity" placeholder="volatile acidity"><br>
+<input name="citric acid" placeholder="citric acid"><br>
+<input name="residual sugar" placeholder="residual sugar"><br>
+<input name="chlorides" placeholder="chlorides"><br>
+<input name="free sulfur dioxide" placeholder="free sulfur dioxide"><br>
+<input name="total sulfur dioxide" placeholder="total sulfur dioxide"><br>
+<input name="density" placeholder="density"><br>
+<input name="pH" placeholder="pH"><br>
+<input name="sulphates" placeholder="sulphates"><br>
+<input name="alcohol" placeholder="alcohol"><br>
+<select name="type">
+<option value="0">Red</option>
+<option value="1">White</option>
+</select><br><br>
+<button type="submit">Predict</button>
+</form>
+</body>
+</html>
